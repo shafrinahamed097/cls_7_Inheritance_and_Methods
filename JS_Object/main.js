@@ -44,4 +44,7 @@ App1.IOS = "https: //download link for linux";
 
 console.log(App1);
 
+// 3. By using an Object constructor
+
+
 
