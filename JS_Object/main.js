@@ -31,4 +31,17 @@ let App = {
     Linux: "https: //download link for linux"
 }
 
-console.log(App);
+// console.log(App);
+
+// 2. By creating instance of Object
+
+let App1 = new Object();
+
+App1.Android = "https://download link for Android";
+App1.IOS = "https://download link for IOS";
+App1.Windows = "https://download link for windows";
+App1.IOS = "https: //download link for linux";
+
+console.log(App1);
+
+
