@@ -19,3 +19,16 @@ let person = {
 }
 
 console.log(person);
+
+// There are 3 ways to create Objects
+
+// 1.By Object literal
+
+let App = {
+    Android: "https://download link for Anroid",
+    IOS: "https://download link for IOS",
+    Windows: "https://download link for windows",
+    Linux: "https: //download link for linux"
+}
+
+console.log(App);
