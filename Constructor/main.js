@@ -5,8 +5,8 @@
 class Person {
 
     // 1. Auto Fire, 2. Can't Return 3.Params
-    constructor(a, b) {
-        console.log(a + b)
+    constructor() {
+        console.log("I'm Deparametaries Constructor ")
 
     }
 
@@ -18,5 +18,16 @@ class Person {
     }
 }
 
-let personObj = new Person(20, 30);
+let personObj = new Person();
+
+
+// Parameterized Constructor
+
+class Person1 {
+    constructor(a, b) {
+        console.log(a + b);
+    }
+}
+
+let person1Obj = new Person1(20, 30);
 
