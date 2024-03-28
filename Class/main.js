@@ -9,16 +9,16 @@
 // Declaring Class & Using Class
 
 class Person {
-    firstName = "Shafrin";
-    lastName = "Ahamed";
+  firstName = "Shafrin";
+  lastName = "Ahamed";
 
-    getName() {
-        return `Name: ${this.firstName} ${this.lastName}`;
-    }
+  fullName() {
+    return `Name: ${this.firstName} ${this.lastName}`;
+  }
+};
+
+let PersonName = new Person();
+console.log(PersonName.fullName());
 
 
-}
 
-
-let PersonObject = new Person();
-console.log(PersonObject.getName());
