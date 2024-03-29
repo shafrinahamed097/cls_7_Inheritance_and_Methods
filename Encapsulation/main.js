@@ -28,3 +28,32 @@ function Profile() {
 
 const LearnerProfile = Profile();
 LearnerProfile.photoUpload();
+
+// Using ES6 Classes
+
+class BankAccount {
+    #balance = 100; // Private Variable
+
+    deposit(amount) {
+        this.#balance += amount;
+
+
+    }
+
+    cashOut(amount) {
+        this.#balance -= amount;
+
+    }
+
+    checkBalance() {
+        return this.#balance;
+
+    }
+
+}
+
+const AccountObj = new BankAccount();
+
+AccountObj.deposit(300);
+AccountObj.cashOut(50);
+console.log(AccountObj.checkBalance());
