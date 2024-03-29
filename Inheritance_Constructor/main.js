@@ -13,4 +13,4 @@ class Son extends Father {
 }
 
 let SonObj = new Son(20, 30);
-let FatherObj = new Father();
+let FatherObj = new Father(40, 30);
